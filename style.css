@@ -1,0 +1,96 @@
+/* 調整用 */
+a {
+    text-decoration: none;
+}
+
+body{
+  background-image: url("./images/main_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: gray;
+}
+
+main {
+  height: 915px;
+  display: flex;
+}
+
+
+.main {
+  margin: auto;
+}
+
+.footer {
+  background-color: gray;
+  height: 50px;
+  display: flex;
+}
+
+.footer div {
+  margin: auto;
+}
+
+.social-link img {
+    width: 32px;
+    height: 32px;
+}
+
+.welcom-page {
+    color:white
+}
+
+/* ヘッダー */
+
+.header {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+@media screen and (min-width: 960px) {
+  .header {
+    height: 80px;
+
+  }
+}
+
+.header__inner {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+  position: relative;
+}
+
+/* ヘッダーのロゴ部分 */
+.header__title {
+  height: 50px;
+  width: fit-content;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+@media screen and (min-width: 960px) {
+  .header__title {
+    height: 80px;
+    width:fit-content;
+  }
+}
+
+.header__title:hover {
+  opacity: 0.8;
+}
+
+.header__title img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
